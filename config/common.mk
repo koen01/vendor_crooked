@@ -162,6 +162,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     rsync
 
+# Google fonts
+PRODUCT_PACKAGES += \
+    fonts_customization.xml
+
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
