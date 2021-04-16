@@ -1,9 +1,3 @@
-# Build fingerprint
-ifneq ($(BUILD_FINGERPRINT),)
-ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
-endif
-
 # ScorpionROM System Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.scorpion.version=$(SCORPION_VERSION) \
@@ -23,3 +17,7 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
 # ScorpionROM Platform Internal Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.scorpion.build.version.plat.rev=$(SCORPION_PLATFORM_REV)
+
+# Only use stock build fingerprint for Google Play Services
+ADDITIONAL_SYSTEM_PROPERTIES += \
+    ro.build.stock_fingerprint=$(BUILD_FINGERPRINT)
