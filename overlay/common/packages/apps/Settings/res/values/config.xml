@@ -36,4 +36,10 @@
     <!-- Manufacturer backup settings to launch -->
     <string name="config_backup_settings_intent" translatable="false">settings://com.android.settings.backup.transport</string>
 
+    <!-- Settings intelligence package name -->
+    <string name="config_settingsintelligence_log_action">com.google.android.settings.intelligence.contextualcards.CARD_INTERACTION_RECEIVER</string>
+
+    <!-- Settings intelligence interaction log intent action -->
+    <string name="config_settingsintelligence_package_name">com.google.android.settings.intelligence</string>
+
 </resources>
