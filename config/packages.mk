@@ -19,6 +19,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     StatixSystemUI
 
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv \
+
 # Google Camera GO
 PRODUCT_PACKAGES += \
     GoogleCameraGo
