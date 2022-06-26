@@ -23,6 +23,12 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_PACKAGES += \
     RepainterServicePriv \
 
+# Udfps
+ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    UdfpsResources
+endif
+
 # Google Camera GO
 PRODUCT_PACKAGES += \
     GoogleCameraGo
