@@ -11,6 +11,10 @@ PRODUCT_PACKAGES += \
     StatiXOSWalls \
     QuickAccessWallet
 
+# Ota updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # App overrides
 PRODUCT_PACKAGES += \
     StatixSystemUI \
