@@ -70,6 +70,30 @@ PRODUCT_PACKAGES += \
     IconPackVictorSystemUIOverlay \
     IconPackVictorThemePickerOverlay
 
+# Signal
+PRODUCT_PACKAGES += \
+    BarsSignalOverlay \
+    DoraSignalOverlay \
+    InsideSignalOverlay \
+    RoundSignalOverlay \
+    SneakySignalOverlay \
+    StrokeSignalOverlay \
+    WavySignalOverlay \
+    XperiaSignalOverlay \
+    ZigZagSignalOverlay
+
+# WiFi
+PRODUCT_PACKAGES += \
+    BarsWiFiOverlay \
+    DoraWiFiOverlay \
+    InsideWiFiOverlay \
+    RoundWiFiOverlay \
+    SneakyWiFiOverlay \
+    StrokeWiFiOverlay \
+    WavyWiFiOverlay \
+    XperiaWiFiOverlay \
+    ZigZagWiFiOverlay
+
 # Pixel Launcher
 PRODUCT_PACKAGES += \
     NexusLauncherOverlay \
